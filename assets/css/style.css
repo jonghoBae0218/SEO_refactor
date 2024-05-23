@@ -49,7 +49,10 @@ a {
 p {
     font-size: 16px;
 }
-
+figure {
+    display: block;
+    unicode-bidi: isolate;
+}
 .hero {
     height: 800px;
     width: 100%;
@@ -57,6 +60,7 @@ p {
     background-image: url("../images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
+ 
 }
 
 .float-left {
@@ -137,3 +141,4 @@ footer {
 footer h2 {
     font-size: 20px;
 }
+
