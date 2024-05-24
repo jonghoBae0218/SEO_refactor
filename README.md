@@ -1,7 +1,7 @@
 # Horiseon website with enhanced structure
 
 ## Description
-his repository modifies the website to fit web standards without changing it's appearance
+This repository modifies the website to fit web standards without changing it's appearance
 ![website image-1](<./assets/images/Screenshot 2024-05-23 at 8.44.09 PM.png>)
 ![website image-2](<./assets/images/Screenshot 2024-05-23 at 8.44.20 PM.png>) 
 ![website image-3](<./assets/images/Screenshot 2024-05-23 at 8.55.51 PM.png>)
