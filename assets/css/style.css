@@ -1,13 +1,17 @@
+
+/* Structuring universal settings */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* Sets background color of the body */
 body {
     background-color: #d9dcd6;
 }
 
+/* Sets size, font color, and background color of header */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,15 +19,18 @@ header {
     color: #ffffff;
 }
 
+/* Sets font size and basic color of h1 */
 h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* Sets the color of a specific part of h1 */
 h1 .seo {
     color: #d9dcd6;
 }
 
+/* Sets style of navigation that will be locaded in header */
 nav{
     padding-top: 15px;
     margin-right: 20px;
@@ -32,27 +39,29 @@ nav{
     font-size: 20px;
 }
 
+/* Removes dots in front of each nave li */
 nav ul{
     list-style-type: none;
 }
 
+/* Sets properties of li */
 nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* Sets hyperlink color */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* Sets passage color  */
 p {
     font-size: 16px;
 }
-figure {
-    display: block;
-    unicode-bidi: isolate;
-}
+
+/* Sets main image of the website. */
 .hero {
     height: 800px;
     width: 100%;
@@ -63,22 +72,26 @@ figure {
  
 }
 
+/* Used to locate elements on left */
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/* Used to locate elements on right */
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/* Sets the location where three attributes will locate */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* Sets the location where three benefits will locate */
 aside {
     margin-right: 20px;
     padding: 20px;
@@ -90,19 +103,20 @@ aside {
     background-color: #2589bd;
 }
 
+/* Sets style for each benefits */
 .benefit{
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-
+/* Sets h style in benefit */
 .benefit h3{
     margin-bottom: 10px;
     text-align: center;
 }
 
 
-
+/* Sets image style in benefit */
 .benefit img {
     display: block;
     margin: 10px auto;
@@ -110,7 +124,7 @@ aside {
 }
 
 
-
+/* Sets attribute-box style  */
 .attribute-box {
     margin-bottom: 20px;
     padding: 50px;
@@ -119,18 +133,18 @@ aside {
     background-color: #0072bb;
     color: #ffffff;
 }
-
+/* Sets image style inside attribute-box */
 .attribute-box img{
     max-height: 200px;
 }
 
-
+/* Sets h2 style inside attribute-box */
 .attribute-box h2{
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-
+/* Sets footer style */
 footer {
     padding: 30px;
     clear: both;
@@ -138,6 +152,7 @@ footer {
     text-align: center;
 }
 
+/* Sets h2 style in footer */
 footer h2 {
     font-size: 20px;
 }
