@@ -1,12 +1,10 @@
 # Horiseon website with enhanced structure
 
 ## Description
-This repository 
+This repository modifies the website to fit web standards without changing it's appearance
 ![website image-1](<Screenshot 2024-05-23 at 8.44.09 PM.png>)
 ![website image-2](<Screenshot 2024-05-23 at 8.44.20 PM.png>) 
-![Website image-3](<Screenshot 2024-05-23 at 8.44.36 PM-1.png>)
-## Purpose
-Modify the website to fit web standards without changing it's appearance
+![Website image-3](<Screenshot 2024-05-23 at 8.55.51 PM.png>)
 
 ## Features
 The three links on top right corner navigates page to the respective location.
